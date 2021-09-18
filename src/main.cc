@@ -4,10 +4,10 @@
 
 int main()
 {
-  Pieces* type1{new Pieces("Plastico", "vasos", 235)};
-  Pieces* type2{new Pieces("Ceramica", "platos", 160)};
-  Pieces* type3{new Pieces("Metal", "Tenedores, Cuchara y Cuchillos", 350)};
-  Pieces* type4{new Pieces("Vidrio ", "Copas de vino", 150)};
+  Pieces* type1{new Pieces("Plastic", "Cups", 235)};
+  Pieces* type2{new Pieces("Ceramics", "Dishes", 160)};
+  Pieces* type3{new Pieces("Metal", "Fork, Spoon and Knife", 350)};
+  Pieces* type4{new Pieces("Glass ", "Glass of wine", 150)};
 
   Stack* stack{new Stack()};
   stack->Push(type1);
